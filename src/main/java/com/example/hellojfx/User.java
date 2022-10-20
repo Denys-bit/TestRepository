@@ -5,8 +5,8 @@ public class User {
     private String last_name;
 
     public User(String name, String last_Name) {
-        name = name;
-        last_name = last_Name;
+        this.name = name;
+        this.last_name = last_Name;
     }
 
     public String getName() {

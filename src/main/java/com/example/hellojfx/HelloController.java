@@ -17,7 +17,7 @@ public class HelloController implements Initializable {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application! Перевірка!");
+        welcomeText.setText("Welcome to JavaFX Application! Перевірка!!");
     }
     @FXML // ResourceBundle that was given to the FXMLLoader
     private ResourceBundle resources;
