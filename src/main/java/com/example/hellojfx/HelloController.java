@@ -51,7 +51,7 @@ public class HelloController implements Initializable {
     );
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        name.setCellValueFactory(new PropertyValueFactory<User, String>("First_Name"));
+        name.setCellValueFactory(new PropertyValueFactory<User, String>("name"));
         last_name.setCellValueFactory(new PropertyValueFactory<User, String>("last_name"));
 
         table.setItems(list);
