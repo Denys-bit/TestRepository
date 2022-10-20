@@ -1,8 +1,8 @@
 package com.example.hellojfx;
 
 public class User {
-    private String name;
-    private String last_name;
+    private final String name;
+    private final String last_name;
 
     public User(String name, String last_Name) {
         this.name = name;

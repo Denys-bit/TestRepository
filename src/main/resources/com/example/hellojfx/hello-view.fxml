@@ -29,7 +29,7 @@
                   </TableView>
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="298.0" prefWidth="333.0">
+          <AnchorPane fx:id="anchorPane" minHeight="0.0" minWidth="0.0" prefHeight="298.0" prefWidth="333.0">
                <children>
                   <Label layoutY="6.0" text="Person_Details:" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
                      <font>
